@@ -1,0 +1,129 @@
+[23-Nov-2019 18:30:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'k6966460_'@'localhost' (using password: YES) in /home/k6966460/public_html/adminsite/login.php on line 5
+[23-Nov-2019 18:32:43 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'k6966460_'@'localhost' (using password: YES) in /home/k6966460/public_html/adminsite/login.php on line 5
+[23-Nov-2019 18:33:43 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'k6966460_sa'@'localhost' to database 'k6966460_rkost' in /home/k6966460/public_html/adminsite/login.php on line 5
+[23-Nov-2019 18:33:50 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'k6966460_sa'@'localhost' to database 'k6966460_rkost' in /home/k6966460/public_html/adminsite/login.php on line 5
+[23-Nov-2019 18:33:56 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'k6966460_sa'@'localhost' to database 'k6966460_rkost' in /home/k6966460/public_html/adminsite/login.php on line 5
+[23-Nov-2019 18:37:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'k6966460_rkost'@'localhost' (using password: YES) in /home/k6966460/public_html/adminsite/login.php on line 5
+[24-Nov-2019 19:26:41 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 77
+[24-Nov-2019 19:26:41 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 77
+[24-Nov-2019 19:26:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 80
+[24-Nov-2019 19:27:19 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 77
+[24-Nov-2019 19:27:19 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 77
+[24-Nov-2019 19:27:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 80
+[24-Nov-2019 19:28:08 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:28:08 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:28:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[24-Nov-2019 19:31:19 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:31:19 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:31:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[24-Nov-2019 19:31:19 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 94
+[24-Nov-2019 19:31:19 UTC] PHP Warning:  file_get_contents(http://bawaberkah.online/api/load_music_gallery.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 94
+[24-Nov-2019 19:31:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 97
+[24-Nov-2019 19:31:20 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:31:20 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:31:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[24-Nov-2019 19:31:20 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 94
+[24-Nov-2019 19:31:20 UTC] PHP Warning:  file_get_contents(http://bawaberkah.online/api/load_music_gallery.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 94
+[24-Nov-2019 19:31:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 97
+[24-Nov-2019 19:31:33 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 94
+[24-Nov-2019 19:31:33 UTC] PHP Warning:  file_get_contents(http://bawaberkah.online/api/load_music_gallery.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 94
+[24-Nov-2019 19:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 97
+[24-Nov-2019 19:31:34 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 94
+[24-Nov-2019 19:31:34 UTC] PHP Warning:  file_get_contents(http://bawaberkah.online/api/load_music_gallery.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 94
+[24-Nov-2019 19:31:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 97
+[24-Nov-2019 19:32:43 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 94
+[24-Nov-2019 19:32:43 UTC] PHP Warning:  file_get_contents(http://bawaberkah.online/api/load_music_gallery.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 94
+[24-Nov-2019 19:32:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 97
+[24-Nov-2019 19:32:44 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 94
+[24-Nov-2019 19:32:44 UTC] PHP Warning:  file_get_contents(http://bawaberkah.online/api/load_music_gallery.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 94
+[24-Nov-2019 19:32:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 97
+[24-Nov-2019 19:33:50 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:33:50 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:33:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 80
+[24-Nov-2019 19:33:52 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:33:52 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:33:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 80
+[24-Nov-2019 19:34:54 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:34:54 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:34:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 80
+[24-Nov-2019 19:34:55 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:34:55 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:34:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 80
+[24-Nov-2019 19:34:57 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:34:57 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:34:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 80
+[24-Nov-2019 19:35:00 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:35:00 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:35:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 80
+[24-Nov-2019 19:35:03 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:35:03 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:35:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 80
+[24-Nov-2019 19:36:08 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:36:08 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 78
+[24-Nov-2019 19:36:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 80
+[24-Nov-2019 19:37:44 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[24-Nov-2019 19:37:44 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[24-Nov-2019 19:37:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
+[24-Nov-2019 19:37:45 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[24-Nov-2019 19:37:45 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[24-Nov-2019 19:37:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
+[24-Nov-2019 19:37:46 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[24-Nov-2019 19:37:46 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[24-Nov-2019 19:37:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
+[24-Nov-2019 19:37:49 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[24-Nov-2019 19:37:49 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[24-Nov-2019 19:37:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
+[24-Nov-2019 19:38:27 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 87
+[24-Nov-2019 19:38:27 UTC] PHP Warning:  file_get_contents(http://bawaberkah.online/api/load_music_gallery.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 87
+[24-Nov-2019 19:38:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 90
+[24-Nov-2019 19:38:42 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[24-Nov-2019 19:38:42 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[24-Nov-2019 19:38:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
+[24-Nov-2019 19:38:43 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[24-Nov-2019 19:38:43 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[24-Nov-2019 19:38:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
+[24-Nov-2019 19:41:37 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[24-Nov-2019 19:41:37 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[24-Nov-2019 19:41:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
+[25-Nov-2019 00:07:08 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 00:07:08 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 00:07:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
+[25-Nov-2019 00:07:21 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 00:07:21 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 00:07:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
+[25-Nov-2019 00:07:37 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 00:07:37 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 00:07:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
+[25-Nov-2019 00:08:20 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 00:08:20 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 00:08:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
+[25-Nov-2019 00:30:32 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 00:30:32 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 00:30:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
+[25-Nov-2019 01:03:53 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 01:03:53 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 01:03:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
+[25-Nov-2019 01:05:02 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 01:05:02 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 01:05:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
+[25-Nov-2019 01:06:20 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 01:06:20 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 01:06:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
+[25-Nov-2019 03:15:51 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 03:15:51 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 03:15:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
+[25-Nov-2019 03:16:01 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 03:16:01 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 03:16:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
+[25-Nov-2019 03:48:44 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 03:48:44 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 03:48:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
+[25-Nov-2019 04:10:28 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 04:10:28 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 04:10:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
+[25-Nov-2019 08:53:50 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 08:53:50 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 08:53:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
+[25-Nov-2019 08:54:10 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 08:54:10 UTC] PHP Warning:  file_get_contents(http://joshjody.my.id/api/kamar.php): failed to open stream: no suitable wrapper could be found in /home/k6966460/public_html/adminsite/kamar.php on line 81
+[25-Nov-2019 08:54:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/k6966460/public_html/adminsite/kamar.php on line 83
