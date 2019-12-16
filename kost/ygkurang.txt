@@ -1,0 +1,8 @@
+-login
+-regist
+-tampilan user (detail)
+-peta pada tentang kami
+-index home
+-upload foto kamar
+-list kamar
+-laporan
