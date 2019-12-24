@@ -23,6 +23,12 @@
                   <li class="nav-item" role="presentation"><a class="nav-link" href="pricing.php">List Kamar</a></li>
                   <li class="nav-item" role="presentation"><a class="nav-link" href="about-us.php">Tentang Kami</a></li>
                   <li class="nav-item" role="presentation"><a class="nav-link active" href="contact-us.php">Kontak</a></li>
+                  <?php
+                  if(isset($_SESSION["usernamepelanggan"])) {
+                      echo'<li class="nav-item" role="presentation"><a class="nav-link active" href="contact-us.php">Kontak</a></li>';
+                  }
+
+                  ?>
                 </ul>
             </div>
         </div>
