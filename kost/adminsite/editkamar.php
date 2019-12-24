@@ -83,7 +83,7 @@
 
                                     $stmt = $conn->prepare("SELECT * FROM `kamarinfo` WHERE id=$id");
                                     $stmt->execute();
-                                    $stmt->bind_result($id, $nomorkamar, $luaskamar, $harga, $status);
+                                    $stmt->bind_result($id, $nomorkamar, $luaskamar, $harga, $gambar1, $gambar2, $status);
                                     while($stmt->fetch()){
 
 
@@ -93,11 +93,12 @@
                                       <tr><td>Luas Kamar</td><td><input type='text' name='luaskamar' value=".$luaskamar."></td></tr>
                                       <tr><td>harga</td><td><input type='number' name='harga' value=".$harga."></td></tr>
                                       <tr hidden><td><input type='hidden' name='id' value=".$id."></td></tr>
+                                      <tr><td><a href='uploadgambar1.php?id=$id'> upload gambar 1</a></td></tr>
+                                      <tr><td><a href='uploadgambar2.php?id=$id'> upload gambar 2</a></td></tr>
                                       <tr><td colspan='2'><button type='submit' >SIMPAN</button></td></tr>
 
                                     ";
                                     }
-
 
 
                                     ?>

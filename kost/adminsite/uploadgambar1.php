@@ -52,9 +52,7 @@
                 <div class="container-fluid">
                     <div class="card shadow">
                         <div class="card-header py-3">
-                          <a href="tambahkamar.php">
-                            <p class="text-primary m-0 font-weight-bold">Tambah Data Kamar</p>
-                          </a>
+
                         </div>
                         <div class="card-body">
                             <!--<div class="row">-->
@@ -66,68 +64,19 @@
                             <!--    </div>-->
                             <!--</div>-->
                             <div class="table-responsive table mt-2" id="dataTable" role="grid" aria-describedby="dataTable_info">
-                                <table class="table dataTable my-0" id="dataTable">
-                                    <thead>
-                                        <tr>
-                                            <th>ID</th>
-                                            <th>Nomor Kamar</th>
-                                            <th>Luas Kamar</th>
-                                            <th>Harga</th>
-                                            <th>gambar 1</th>
-                                            <th>gambar 2</th>
-                                            <th>Status</th>
-                                            <th>Aksi</th>
-                                        </tr>
-                                    </thead>
+                              <?
+                              $id           = $_GET['id'];
+                              echo'
+                              <form method="post" enctype="multipart/form-data" action="uploadgambar1_proc.php?id='.$id.'">
+                              ';
+                              ?>
+                                  <input type="file" name="gambar">
+                                  <br>
+                                  <br>
+                                  <br>
+                                  <input type="submit" class="btn btn-primary" name="upload" value="Upload">
 
-                                    <tbody>
-
-
-
-                                        <?php
-
-                                        define('DB_HOST','localhost');
-                                        define('DB_USER','root');
-                                        define('DB_PASS','');
-                                        define('DB_NAME','kost');
-
-                                        // Create connection
-                                        $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
-
-                                        // Check connection
-                                        if (mysqli_connect_errno()) {
-                                            die('Unable to connect to database' . mysqli_connect_error());
-                                        }
-
-                                        $stmt = $conn->prepare("SELECT * FROM `kamarinfo`;");
-                                        $stmt->execute();
-                                        $stmt->bind_result($id, $nomorkamar, $luaskamar, $harga, $gambar1, $gambar2, $status);
-                                        while($stmt->fetch()){
-
-
-                                          echo "<tr>
-                                              <td>".$id."</td>
-                                              <td>".$nomorkamar."</td>
-                                              <td>".$luaskamar."</td>
-                                              <td>".$harga."</td>
-                                              <td>".$gambar1."</td>
-                                              <td>".$gambar2."</td>
-                                              <td>".$status."</td>
-                                              <td><a href='editkamar.php?id=$id'>Edit</a><br><a href='deletekamar.php?id=$id'>Delete</a></td>
-                                                </tr>";
-                                        }
-
-                                        ?>
-
-
-
-
-
-
-
-
-                                </tbody>
-                                </table>
+                            </form>
                             </div>
                             <!--<div class="row">-->
                             <!--    <div class="col-md-6 align-self-center">-->

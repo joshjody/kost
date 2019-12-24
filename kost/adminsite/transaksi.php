@@ -101,7 +101,7 @@
                                             die('Unable to connect to database' . mysqli_connect_error());
                                         }
 
-                                        $stmt = $conn->prepare("SELECT * FROM `pemesanan`;");
+                                        $stmt = $conn->prepare("SELECT * FROM `transaksi`;");
                                         $stmt->execute();
                                         $stmt->bind_result($id, $nama_pelanggan, $nomor_kamar, $fasilitas, $tgl_pesan, $Total_harga, $Method, $bank, $status);
                                         while($stmt->fetch()){
