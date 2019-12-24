@@ -1,5 +1,5 @@
 <?php
-        
+
         session_start();
         $message="";
         if(count($_POST)>0) {
@@ -8,13 +8,13 @@
             $result = mysqli_query($con,"SELECT username FROM admin WHERE email='" . $_POST["email"] . "' and password = '" . $_POST["password"] . "'");
             $row  = mysqli_fetch_array($result);
             if(is_array($row)) {
-                $_SESSION["usernameadmin"] = $row['username'];
+                $_SESSION["usernamepelanggan"] = $row['username'];
             } else {
                 $message = "Invalid Username or Password!";
             }
         }
-        if(isset($_SESSION["usernameadmin"])) {
-            header("Location:dash.php");
+        if(isset($_SESSION["usernamepelanggan"])) {
+            header("Location:index.php");
         }
     ?>
 <!DOCTYPE html>
@@ -37,7 +37,7 @@
                     <div class="card-body p-0">
                         <div class="row">
                             <div class="col-lg-6 d-none d-lg-flex">
-                                <div class="flex-grow-1 bg-login-image" style="background-image: url(&quot;assets/img/dogs/image3.jpeg&quot;);"></div>
+                                <div class="flex-grow-1 bg-login-image" style="background-image: url(&quot;images/kamar3.jpeg&quot;);"></div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="p-5">
@@ -56,6 +56,7 @@
                                         </div><button class="btn btn-primary btn-block text-white btn-user" type="submit">Login</button>
                                         <hr>
                                     </form>
+                                    <h10 class="text-dark mb-4">tidak punya akun? daftar <a href="register.php">disini</a></h10>
                                     <!--<div class="text-center"><a class="small" href="forgot-password.html">Forgot Password?</a></div>-->
                                     <!--<div class="text-center"><a class="small" href="register.html">Create an Account!</a></div>-->
                                 </div>

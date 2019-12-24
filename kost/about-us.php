@@ -23,6 +23,20 @@
                   <li class="nav-item" role="presentation"><a class="nav-link" href="pricing.php">List Kamar</a></li>
                   <li class="nav-item" role="presentation"><a class="nav-link" href="about-us.php">Tentang Kami</a></li>
                   <li class="nav-item" role="presentation"><a class="nav-link active" href="contact-us.php">Kontak</a></li>
+                  <?php
+                  session_start();
+                  if (isset($_SESSION['usernamepelanggan'])) {
+                      echo'
+                      <li class="nav-item" role="presentation"><a class="nav-link active" href="dashboard.php">Dashboard</a></li>
+                      <li class="nav-item" role="presentation"><a class="nav-link active" href="logout.php">Logout</a></li>
+                      ';
+                  }
+                  else {
+                    echo'<li class="nav-item" role="presentation"><a class="nav-link active" href="login.php">Login</a></li>';
+                  }
+
+
+                  ?>
                 </ul>
             </div>
         </div>
@@ -69,7 +83,7 @@
 
             </div>
 
-            <div class="mapouter peta"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Jl.%20Kp.%20Klp.%20No.110%2C%20RT.02%2FRW.19%2C%20Rw.%20Panjang%2C%20Kec.%20Bojong%20Gede%2C%20Bogor%2C%20Jawa%20Barat%2016920&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.emojilib.com"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+            <div class="mapouter peta"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Jl.%20Kp.%20Klp.%20No.110%2C%20RT.02%2FRW.19%2C%20Rw.%20Panjang%2C%20Kec.%20Bojong%20Gede%2C%20Bogor%2C%20Jawa%20Barat%2016920&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.emojilib.com"></a></div><style>.mapouter{text-align:right;height:500px;width:600px;margin-left: auto;margin-right: auto;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
         </section>
     </main>
     <footer class="page-footer dark">

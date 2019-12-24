@@ -24,9 +24,17 @@
                   <li class="nav-item" role="presentation"><a class="nav-link" href="about-us.php">Tentang Kami</a></li>
                   <li class="nav-item" role="presentation"><a class="nav-link active" href="contact-us.php">Kontak</a></li>
                   <?php
-                  if(isset($_SESSION["usernamepelanggan"])) {
-                      echo'<li class="nav-item" role="presentation"><a class="nav-link active" href="contact-us.php">Kontak</a></li>';
+                  session_start();
+                  if (isset($_SESSION['usernamepelanggan'])) {
+                      echo'
+                      <li class="nav-item" role="presentation"><a class="nav-link active" href="dashboard.php">Dashboard</a></li>
+                      <li class="nav-item" role="presentation"><a class="nav-link active" href="logout.php">Logout</a></li>
+                      ';
                   }
+                  else {
+                    echo'<li class="nav-item" role="presentation"><a class="nav-link active" href="login.php">Login</a></li>';
+                  }
+
 
                   ?>
                 </ul>
