@@ -32,16 +32,17 @@
             <div class="container">
                 <div class="block-heading">
                     <h2 class="text-info">Tentang Kami</h2>
-                    <p>Kami menyediakan layanan penyewaan kamar atau biasa disebut dengan kost sejak tahun 2005. Berlokasi di Jl. Utama V No.5, RT.3/RW.1, Kecamatan Cengkareng, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11730</p>
+                    <p>Kami menyediakan layanan penyewaan kamar atau biasa disebut dengan kost sejak tahun 2005. Berlokasi di Jl. Kp. Klp. No.110, RT.02/RW.19, Rw. Panjang, Kec. Bojong Gede, Bogor, Jawa Barat 16920</p>
                     <p></p>
                 </div>
-                <div class="row justify-content-center">
+
+                <!-- <div class="row justify-content-center">
                     <div class="col-sm-6 col-lg-4">
                         <div class="card clean-card text-center"><img class="card-img-top w-100 d-block" src="images/kamarutama.jpg">
                             <div class="card-body info">
                                 <h4 class="card-title">Kamar</h4>
                                 <p class="card-text">Kami Memberikan segala kebutuhan anda untuk tinggal seperti kasur, lemari, cermin, kursi, meja, dll.</p>
-                                <!-- <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div> -->
+
                             </div>
                         </div>
                     </div>
@@ -50,7 +51,7 @@
                             <div class="card-body info">
                                 <h4 class="card-title">Kamar Mandi Dalam</h4>
                                 <p class="card-text">Tidak perlu mengantri lagi untuk kekamar mandi, karena kamar mandi sudah ada didalam tiap - tiap kamar.</p>
-                                <!-- <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div> -->
+
                             </div>
                         </div>
                     </div>
@@ -59,12 +60,16 @@
                             <div class="card-body info">
                                 <h4 class="card-title">Ruang Tamu</h4>
                                 <p class="card-text">Kami menyediakan ruang tamu untuk anda menjamu tamu - tamu anda yang sedang berkunjung.</p>
-                                <!-- <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div> -->
+
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
+
+
             </div>
+
+            <div class="mapouter peta"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Jl.%20Kp.%20Klp.%20No.110%2C%20RT.02%2FRW.19%2C%20Rw.%20Panjang%2C%20Kec.%20Bojong%20Gede%2C%20Bogor%2C%20Jawa%20Barat%2016920&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.emojilib.com"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
         </section>
     </main>
     <footer class="page-footer dark">

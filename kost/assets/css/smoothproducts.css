@@ -3,6 +3,7 @@ html, body {
   width: 100%;
 }
 
+
 .sp-loading {
   text-align: center;
   max-width: 270px;
@@ -172,4 +173,3 @@ html, body {
     bottom: 25px;
   }
 }
-
