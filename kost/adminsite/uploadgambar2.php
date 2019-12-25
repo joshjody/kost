@@ -60,7 +60,7 @@
                               <?php
                               $id           = $_GET['id'];
                               echo'
-                              <form method="post" enctype="multipart/form-data" action="ug1_proc.php?id='.$id.'">
+                              <form method="post" enctype="multipart/form-data" action="ug2_proc.php?id='.$id.'">
                                   <input type="file" name="gambar" required>
                                   <br>
                                   <br>

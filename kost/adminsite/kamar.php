@@ -113,7 +113,10 @@
                                               <td>".$gambar1."</td>
                                               <td>".$gambar2."</td>
                                               <td>".$status."</td>
-                                              <td><a href='editkamar.php?id=$id'>Edit</a><br><a href='deletekamar.php?id=$id'>Delete</a></td>
+                                              <td><a href='editkamar.php?id=$id'>Edit</a>
+                                              <br><a href='deletekamar.php?id=$id'>Delete</a>
+                                              <br><a href='gantistatuskamar.php?id=$id&status=$status'>Ganti Status</a>
+                                              </td>
                                                 </tr>";
                                         }
 

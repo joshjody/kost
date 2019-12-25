@@ -1,5 +1,5 @@
+(setiap kali ada update, tolong di ganti isi dari databasenya)
 -tampilan user (detail)
--index home
--upload foto kamar
+-index home (perlu dibetulkan sedikit)
 -list kamar
 -laporan
